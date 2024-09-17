@@ -9,7 +9,7 @@ LOG_FILE="/var/log/procesosSelect.log"
 dates=$(date "+%b %d %H:%M:%S")
 
 # Usuarios y credenciales
-users=("f95378:Cortez Fuentes Luis Adan" "g02723:Caballero Romero Ismael" "f29733:Marinez Linares Cristobal" "z9999:Diaz Chavez Adonis Alejandro")
+users=("f00001:Nombre Completo 1" "g00002:Nombre Completo 2" "h00003:Nombre Completo 3" "z00004:Nombre completo 4")
 
 echo " "
 read -p "Ingresa el password: " pass
