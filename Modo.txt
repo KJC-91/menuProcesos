@@ -1,0 +1,17 @@
+Para agregar más procesos al sistema hay que agregar la siguiente cadena de código:
+
+		elif [ $opc -eq 3 ]; then
+                echo -e "${YELLOW}Mostrando uso de ALMACENAMIENTO:${NC}"
+                echo " "
+                echo "$dates El usuario $user ejecuto el Proceso Almacenamiento" >> $LOG_FILE 2>&1
+                df -hT
+
+Cambien el menú al número segú se requierea 
+		
+		elif [ $opc -eq n_numero ]
+
+Crear el archivo log
+		
+		mkdir /var/log/procesosSelect.log
+		chmod 755 /var/log/procesosSelect.log
+
